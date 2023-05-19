@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The DTD(document type definition) in the hibernate jar is a good way to know 
+what are the attributes that can be included and the expected name for that tag. -->
+
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	
+<hibernate-configuration>
+  
+  <session-factory>
+  
+  
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://localhost:3306/Hiber</property>
+    <property name="connection.user">root</property>
+    <property name="connection.password">root</property>
+    <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>           <!--  it identify the language of communication -->
+    <property name="hbm2ddl.auto">update</property>                                  <!--  it create table if not present  -->
+    <property name="show_sql">true</property>
+    <property name="format_sql">true</property>
+    
+      <mapping class="com.entities.Note"/>
+
+    
+  </session-factory>
+  
+</hibernate-configuration>
