@@ -1,0 +1,117 @@
+repo_name: guptaaashutosh/NoteTaker
+report_id: 5d3e8406526a4cde7a23eb2feb2f60eb
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T11:30:35+00:00'
+requested_by: guptaaashutosh
+provider: github
+branch: main
+detected_tools_count: 9
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker
+  detection_source: Repo Metadata
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker/blob/main/src/main/resources/hibernate.cfg.xml
+  detection_source: src/main/resources/hibernate.cfg.xml
+  last_updated_by: Aashutosh
+  last_updated_on: 2023-05-19 12:21:22.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Aashutosh
+  last_updated_on: 2023-05-19 12:21:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 3.8.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Aashutosh
+  last_updated_on: 2023-05-19 12:21:22.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 3.8.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Aashutosh
+  last_updated_on: 2023-05-19 12:21:22.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 8.0.30
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Aashutosh
+  last_updated_on: 2023-05-19 12:21:22.000000000 Z
+- name: org.hibernate:hibernate-core
+  description: Hibernate's core ORM functionality
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/guptaaashutosh/NoteTaker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Aashutosh
+  last_updated_on: 2023-05-19 12:21:22.000000000 Z
